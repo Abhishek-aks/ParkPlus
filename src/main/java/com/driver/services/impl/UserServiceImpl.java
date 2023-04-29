@@ -26,9 +26,9 @@ public class UserServiceImpl implements UserService {
         return user;
     }
 
-//    @Override
-//    public void register(String name, String phoneNumber, String password) {
-//        User user=new User(name,phoneNumber,password);
-//        userRepository4.save(user);
+    @Override
+    public void register(String name, String phoneNumber, String password) {
+        User user=new User(name,phoneNumber,password);
+        userRepository4.save(user);
     }
 }
